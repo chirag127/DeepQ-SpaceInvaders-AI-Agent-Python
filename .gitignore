@@ -1,0 +1,65 @@
+# --------------------------------------------------------------------------
+# APEX GENERATED .gitignore (DeepQ-SpaceInvaders-AI-Agent-Python)
+# Standardized for Python 3.10+, uv, and Deep Reinforcement Learning Artifacts
+# --------------------------------------------------------------------------
+
+# Python Compiled Files
+__pycache__/
+*.pyc
+*.pyd
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+/lib
+/local
+/bin
+/include
+.Python
+
+# Dependency Management (uv/pip)
+pip-log.txt
+.pip_download_cache
+
+# Testing & Linting Artifacts (Ruff, Pytest)
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Jupyter Notebook Artifacts
+.ipynb_checkpoints
+*~
+
+# Deep Learning / Reinforcement Learning Artifacts
+# Models and checkpoints
+*.h5
+*.pth
+*.pt
+*.pkl
+*.onnx
+/models/
+/checkpoints/
+
+# Logs and Run Data
+/logs/
+/runs/
+/results/
+/tensorboard/
+
+# Datasets, Atari Environments, and Replay Buffers
+/data/
+/datasets/
+replay_buffer.pkl
+
+# Operating System Files
+.DS_Store
+thumbs.db
+
+# IDE Files
+.idea/
+.vscode/
+*.swp
+*.bak
